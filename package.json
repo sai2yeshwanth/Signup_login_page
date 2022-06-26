@@ -1,0 +1,31 @@
+{
+  "name": "signup_login_page",
+  "version": "1.0.0",
+  "description": "Simple SignUp and login Page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai2yeshwanth/Signup_login_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai2yeshwanth/Signup_login_page/issues"
+  },
+  "homepage": "https://github.com/sai2yeshwanth/Signup_login_page#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
